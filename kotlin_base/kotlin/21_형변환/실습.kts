@@ -46,3 +46,6 @@ val warrior2 : DefenseWarrior1 = warrior as DefenseWarrior1
 warrior2.defense()
 
 // as?
+val defenseWarrior1 = DefenseWarrior1()
+val warrior1 = defenseWarrior1 as Warrior1
+
